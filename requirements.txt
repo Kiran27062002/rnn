@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+joblib
+scikit-learn
+tensorflow
+keras
+streamlit
+plotly
+pyngrok
+kagglehub
+tqdm
