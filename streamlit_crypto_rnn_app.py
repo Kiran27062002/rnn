@@ -16,7 +16,7 @@ st.title("📈 Crypto Currency Prediction Dashboard")
 
 # Sidebar options
 st.sidebar.header("⚙️ Settings")
-data_dir =" /root/.cache/kagglehub/datasets/tr1gg3rtrash/time-series-top-100-crypto-currency-dataset/versions/2")
+data_dir =" /root/.cache/kagglehub/datasets/tr1gg3rtrash/time-series-top-100-crypto-currency-dataset/versions/2"
 pred_dir = st.sidebar.text_input("Prediction Folder", "predictions_per_coin")
 
 coins = [f.replace('.csv','') for f in os.listdir(data_dir) if f.endswith('.csv')]
